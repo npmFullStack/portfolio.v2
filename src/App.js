@@ -723,7 +723,7 @@ const Portfolio = () => {
                                 id: 1,
                                 title: "NorAnime",
                                 description:
-                                    "An anime discovery platform where you can search trending animes, view their details, and see popularity rankings.",
+                                    "Note: On-going project. An anime discovery platform where you can search trending animes, view their details, and see popularity rankings.",
                                 technologies: ["React", "Rest API", "Tailwind"],
                                 image: "/projects/noranime.png",
                                 link: "https://noranime-nu.vercel.app/"
