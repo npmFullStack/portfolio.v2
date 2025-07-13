@@ -11,7 +11,7 @@ const Portfolio = () => {
         // Loading animation duration
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 2600);
 
         return () => clearTimeout(timer);
     }, []);
@@ -461,9 +461,9 @@ const Portfolio = () => {
                                 isDarkMode ? "text-gray-300" : "text-gray-600"
                             }`}
                         >
-                            When I'm not coding, you can find me exploring new
-                            technologies, contributing to open-source projects,
-                            or enjoying a good game of Minecraft!
+                            When I'm not coding, I enjoy playing online games,
+                            watching anime, reading manga, sleeping, or spending
+                            time with my cat.
                         </p>
                     </div>
                 </div>
@@ -887,7 +887,7 @@ const Portfolio = () => {
                             isDarkMode ? "text-gray-400" : "text-gray-600"
                         }`}
                     >
-                        © 2025 NorDev. Built with React & Tailwind CSS.
+                        © 2025 NorDev • Bringing ideas to life.
                     </p>
                 </div>
             </footer>
