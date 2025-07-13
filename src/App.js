@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-    Menu,
-    X,
-    Sun,
-    Moon,
-    Github,
-    Linkedin,
-    Mail,
-    ExternalLink
-} from "lucide-react";
+import { Menu, X, Sun, Moon, Github, Mail, ExternalLink } from "lucide-react";
 
 const Portfolio = () => {
     const [isDarkMode, setIsDarkMode] = useState(false); // Changed default to light mode
@@ -742,18 +733,23 @@ const Portfolio = () => {
                                 title: "DoTrack",
                                 description:
                                     "A simple yet powerful todo list application to help you organize and track your daily tasks.",
-                                technologies: ["HTML", "JavaScript", "CSS", "PHP"],
+                                technologies: [
+                                    "HTML",
+                                    "JavaScript",
+                                    "CSS",
+                                    "PHP"
+                                ],
                                 image: "/projects/dotrack.png",
-                                link: "https://http://dotrack-nordev.rf.gd/?fbclid=IwY2xjawLgCSdleHRuA2FlbQIxMQABHifaNfINmpa4xEvQw9t0whI2vGJvxMQmUr-1kRFU_HfI2A9cvTEUweqn3PIG_aem_hAgSzt2HltUvRtNyjaitaw&i=1"
+                                link: "https://dotrack-nordev.rf.gd/"
                             },
                             {
                                 id: 3,
-                                title: "Portfolio Website",
+                                title: "Catchy",
                                 description:
-                                    "Responsive portfolio website built with Laravel and Tailwind CSS",
-                                technologies: ["Laravel", "Tailwind"],
-                                image: "/projects/portfolio.png",
-                                link: "https://portfolio.example.com"
+                                    "Note: Front-end only. Catchy is a React Native mobile application developed as a midterm project, showcasing modern mobile development practices. It features a clean UI, smooth animations, and efficient state management.",
+                                technologies: ["React Native"],
+                                image: "/projects/catchy.png",
+                                link: "https://apkpure.com/p/com.norway012.norway"
                             }
                         ].map(project => (
                             <a
@@ -838,14 +834,14 @@ const Portfolio = () => {
                         </p>
                         <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
                             <a
-                                href="mailto:norway@example.com"
+                                href="mailto:occ.mangorangca.norway@gmail.com"
                                 className="flex items-center space-x-2 text-green-500 hover:text-green-400 transition-colors px-4 py-2"
                             >
                                 <Mail className="w-6 h-6" />
                                 <span>Email</span>
                             </a>
                             <a
-                                href="https://github.com"
+                                href="https://github.com/npmFullStack"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center space-x-2 text-green-500 hover:text-green-400 transition-colors px-4 py-2"
@@ -853,17 +849,9 @@ const Portfolio = () => {
                                 <Github className="w-6 h-6" />
                                 <span>GitHub</span>
                             </a>
+
                             <a
-                                href="https://linkedin.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center space-x-2 text-green-500 hover:text-green-400 transition-colors px-4 py-2"
-                            >
-                                <Linkedin className="w-6 h-6" />
-                                <span>LinkedIn</span>
-                            </a>
-                            <a
-                                href="https://facebook.com"
+                                href="https://www.facebook.com/share/1ECknLTzU9/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center space-x-2 text-green-500 hover:text-green-400 transition-colors px-4 py-2"
