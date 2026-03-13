@@ -708,55 +708,63 @@ const Portfolio = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
-                            {
-                                id: 1,
-                                title: "XMFFI",
-                                description: "A comprehensive booking system for XtraMile Freight Forwarding Inc. featuring land and sea transportation logistics with real-time tracking and management.",
-                                technologies: ["React", "Laravel", "Tailwind", "MySQL"],
-                                image: "/projects/xmffi.png",
-                                link: "https://xmffi-fms.vercel.app/"
-                            },
-                            {
-                                id: 2,
-                                title: "XtraMile Mobile",
-                                description: "Mobile application version of XMFFI for on-the-go booking and tracking of land and sea freight services with push notifications.",
-                                technologies: ["React Native", "Laravel", "Tailwind"],
-                                image: "/projects/xtramile-mobile.png",
-                                link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view"
-                            },
-                            {
-                                id: 3,
-                                title: "WordPress Portfolio",
-                                description: "A professional portfolio website built with WordPress showcasing projects and skills with custom themes and responsive design.",
-                                technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
-                                image: "/projects/wordpress-portfolio.png",
-                                link: "https://live-mangorangca-portfolio.pantheonsite.io/"
-                            },
-                            {
-                                id: 4,
-                                title: "BudgetNatin",
-                                description: "A simple yet powerful budget tracking application to help users manage their finances with expense categorization and reporting.",
-                                technologies: ["React", "Node.js", "Express", "Tailwind"],
-                                image: "/projects/budgetnatin.png",
-                                link: "https://budgetnatinweb.onrender.com"
-                            },
-                            {
-                                id: 5,
-                                title: "NorAnime",
-                                description: "An anime discovery platform where you can search trending animes, view their details, and see popularity rankings.",
-                                technologies: ["React", "Rest API", "Tailwind"],
-                                image: "/projects/noranime.png",
-                                link: "https://noranime-nu.vercel.app/"
-                            },
-                            {
-                                id: 6,
-                                title: "Catchy",
-                                description: "A React Native mobile application developed as a midterm project, showcasing modern mobile development practices with clean UI and smooth animations.",
-                                technologies: ["React Native"],
-                                image: "/projects/catchy.png",
-                                link: "https://apkpure.com/p/com.norway012.norway"
-                            }
-                        ].map(project => (
+    {
+        id: 1,
+        title: "XMFFI",
+        description: "A comprehensive booking system for XtraMile Freight Forwarding Inc. featuring land and sea transportation logistics with real-time tracking and management.",
+        technologies: ["React", "Laravel", "Tailwind", "MySQL"],
+        image: "/projects/xmffi.png",
+        link: "https://xmffi-fms.vercel.app/"
+    },
+    {
+        id: 2,
+        title: "Rantify",
+        description: "An anonymous letter-sharing platform where users can read heartfelt confessions, thoughts, and stories from strangers. Write your own anonymous letters and connect with others through shared experiences in a safe, judgment-free space.",
+        technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+        image: "/projects/rantify.png",
+        link: "https://rantify-client.onrender.com/"
+    },
+    {
+        id: 3,
+        title: "XtraMile Mobile",
+        description: "Mobile application version of XMFFI for on-the-go booking and tracking of land and sea freight services with push notifications.",
+        technologies: ["React Native", "Laravel", "Tailwind"],
+        image: "/projects/xtramile-mobile.png",
+        link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view"
+    },
+    {
+        id: 4,
+        title: "WordPress Portfolio",
+        description: "A professional portfolio website built with WordPress showcasing projects and skills with custom themes and responsive design.",
+        technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
+        image: "/projects/wordpress-portfolio.png",
+        link: "https://live-mangorangca-portfolio.pantheonsite.io/"
+    },
+    {
+        id: 5,
+        title: "BudgetNatin",
+        description: "A simple yet powerful budget tracking application to help users manage their finances with expense categorization and reporting.",
+        technologies: ["React", "Node.js", "Express", "Tailwind"],
+        image: "/projects/budgetnatin.png",
+        link: "https://budgetnatinweb.onrender.com"
+    },
+    {
+        id: 6,
+        title: "NorAnime",
+        description: "An anime discovery platform where you can search trending animes, view their details, and see popularity rankings.",
+        technologies: ["React", "Rest API", "Tailwind"],
+        image: "/projects/noranime.png",
+        link: "https://noranime-nu.vercel.app/"
+    },
+    {
+        id: 7,
+        title: "Catchy",
+        description: "A React Native mobile application developed as a midterm project, showcasing modern mobile development practices with clean UI and smooth animations.",
+        technologies: ["React Native"],
+        image: "/projects/catchy.png",
+        link: "https://apkpure.com/p/com.norway012.norway"
+    }
+].map(project => (
                             <a
                                 key={project.id}
                                 href={project.link}
