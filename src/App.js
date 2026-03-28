@@ -39,7 +39,7 @@ const Portfolio = () => {
         "Live": "bg-green-500 text-white",
         "Ongoing": "bg-blue-500 text-white",
         "Frontend Only": "bg-purple-500 text-white",
-        "Server Down": "bg-red-500 text-white",
+        "Free Tier Server Expired": "bg-red-500 text-white",
         "Mobile App": "bg-orange-500 text-white",
     };
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
             technologies: ["React", "Laravel", "Tailwind", "MySQL"],
             image: "/projects/xmffi.png",
             link: "https://xmffi-fms.vercel.app/",
-            badge: "Server Down"
+            badge: "Free Tier Server Expired"
         },
         {
             id: 3,
@@ -69,7 +69,7 @@ const Portfolio = () => {
             technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
             image: "/projects/rantify.png",
             link: "https://rantify-client.onrender.com/",
-            badge: "Server Down"
+            badge: "Live"
         },
         {
             id: 4,
@@ -96,7 +96,7 @@ const Portfolio = () => {
             technologies: ["React", "Node.js", "Express", "Tailwind"],
             image: "/projects/budgetnatin.png",
             link: "https://budgetnatinweb.onrender.com",
-            badge: "Server Down"
+            badge: "Free Tier Server Expired"
         },
         {
             id: 7,
