@@ -58,7 +58,7 @@ const Portfolio = () => {
         title: "purpleÜ",
         description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
         technologies: ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "Express"],
-        image: "/projects/purpleÜ.png",
+        image: "/projects/purpleÜ.jpg",
         link: "https://pupleu.onrender.com",
         badge: "Ongoing"
     },
