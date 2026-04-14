@@ -43,7 +43,7 @@ const Portfolio = () => {
         "Mobile App": "bg-orange-500 text-white",
     };
 
-    const projects = [
+   const projects = [
     {
         id: 1,
         title: "SukiPRO",
@@ -55,6 +55,24 @@ const Portfolio = () => {
     },
     {
         id: 2,
+        title: "OCCeLibrary",
+        description: "Library management system with eBook management, physical book tracking, and administrative controls.",
+        technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
+        image: "/projects/occ elibrary.png",
+        link: "",
+        badge: "Ongoing"
+    },
+    {
+        id: 3,
+        title: "DoTrack",
+        description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
+        technologies: ["React", "Vite", "MySQL", "Node.js", "Express"],
+        image: "/projects/dotrack.png",
+        link: "",
+        badge: "Ongoing"
+    },
+    {
+        id: 4,
         title: "purpleÜ",
         description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
         technologies: ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "Express"],
@@ -63,63 +81,63 @@ const Portfolio = () => {
         badge: "Ongoing"
     },
     {
-        id: 3,
+        id: 5,
         title: "XMFFI",
-        description: "A comprehensive booking system for XtraMile Freight Forwarding Inc. featuring land and sea transportation logistics with real-time tracking and management.",
+        description: "Booking system for land and sea transportation logistics with real-time tracking.",
         technologies: ["React", "Laravel", "Tailwind", "MySQL"],
         image: "/projects/xmffi.png",
         link: "https://xmffi-fms.vercel.app/",
         badge: "Free Tier Server Expired"
     },
     {
-        id: 4,
+        id: 6,
         title: "Rantify",
-        description: "An anonymous letter-sharing platform where users can read heartfelt confessions, thoughts, and stories from strangers.",
+        description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
         technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
         image: "/projects/rantify.png",
         link: "https://rantify-client.onrender.com/",
         badge: "Live"
     },
     {
-        id: 5,
+        id: 7,
         title: "XtraMile Mobile",
-        description: "Mobile application version of XMFFI for on-the-go booking and tracking of land and sea freight services with push notifications.",
+        description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
         technologies: ["React Native", "Laravel", "Tailwind"],
         image: "/projects/xtramile-mobile.png",
         link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view",
         badge: "Mobile App"
     },
     {
-        id: 6,
+        id: 8,
         title: "WordPress Portfolio",
-        description: "A professional portfolio website built with WordPress showcasing projects and skills with custom themes and responsive design.",
+        description: "Professional portfolio website with custom themes and responsive design.",
         technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
         image: "/projects/wordpress-portfolio.png",
         link: "https://live-mangorangca-portfolio.pantheonsite.io/",
         badge: "Live"
     },
     {
-        id: 7,
+        id: 9,
         title: "BudgetNatin",
-        description: "A simple yet powerful budget tracking application to help users manage their finances with expense categorization and reporting.",
+        description: "Budget tracking app with expense categorization and reporting.",
         technologies: ["React", "Node.js", "Express", "Tailwind"],
         image: "/projects/budgetnatin.png",
         link: "https://budgetnatinweb.onrender.com",
         badge: "Free Tier Server Expired"
     },
     {
-        id: 8,
+        id: 10,
         title: "NorAnime",
-        description: "An anime discovery platform where you can search trending animes, view their details, and see popularity rankings.",
+        description: "Anime discovery platform to search trending anime and view details.",
         technologies: ["React", "Rest API", "Tailwind"],
         image: "/projects/noranime.png",
         link: "https://noranime-nu.vercel.app/",
         badge: "Frontend Only"
     },
     {
-        id: 9,
+        id: 11,
         title: "Catchy",
-        description: "A React Native mobile application developed as a midterm project, showcasing modern mobile development practices with clean UI and smooth animations.",
+        description: "React Native mobile app with clean UI and smooth animations.",
         technologies: ["React Native"],
         image: "/projects/catchy.png",
         link: "https://apkpure.com/p/com.norway012.norway",
