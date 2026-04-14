@@ -58,7 +58,7 @@ const Portfolio = () => {
         title: "OCCeLibrary",
         description: "Library management system with eBook management, physical book tracking, and administrative controls.",
         technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
-        image: "/projects/occ elibrary.png",
+        image: "/projects/occelibrary.png",
         link: "",
         badge: "Ongoing"
     },
