@@ -59,7 +59,7 @@ const Portfolio = () => {
         description: "Library management system with eBook management, physical book tracking, and administrative controls.",
         technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
         image: "/projects/occelibrary.png",
-        link: "",
+        link: "https://occelibrary.onrender.com",
         badge: "Ongoing"
     },
     {
@@ -68,7 +68,7 @@ const Portfolio = () => {
         description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
         technologies: ["React", "Vite", "MySQL", "Node.js", "Express"],
         image: "/projects/dotrack.png",
-        link: "",
+        link: "https://dotrack.onrender.com",
         badge: "Ongoing"
     },
     {
