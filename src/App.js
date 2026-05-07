@@ -319,7 +319,7 @@ const Portfolio = () => {
             >
                 <div className="container mx-auto px-4 py-4">
                     <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2 text-2xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
+                        <div className="flex items-center text-2xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
                             <img src="/logo.svg" alt="NorDev Logo" className="w-8 h-8" />
                             NorDev
                         </div>
