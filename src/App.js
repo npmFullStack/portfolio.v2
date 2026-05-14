@@ -46,108 +46,116 @@ const Portfolio = () => {
         "Mobile App": "bg-orange-500 text-white",
     };
 
-    const projects = [
-        {
-            id: 1,
-            title: "SukiPRO",
-            description: "POS and inventory system for retail stores with barcode scanning, sales tracking, and multi-shop support.",
-            technologies: ["React", "Tailwind CSS", "Supabase"],
-            image: "/projects/sukipro.png",
-            link: "https://sukipro.onrender.com",
-            badge: "Ongoing"
-        },
-        {
-            id: 2,
-            title: "OCCeLibrary",
-            description: "Library management system with eBook management, physical book tracking, and administrative controls.",
-            technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
-            image: "/projects/occelibrary.png",
-            link: "https://occelibrary.onrender.com",
-            badge: "Ongoing"
-        },
-        {
-            id: 3,
-            title: "DoTrack",
-            description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
-            technologies: ["React", "Vite", "MySQL", "Node.js", "Express"],
-            image: "/projects/dotrack.png",
-            link: "https://dotrack.onrender.com",
-            badge: "Ongoing"
-        },
-        {
-            id: 4,
-            title: "purpleÜ",
-            description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
-            technologies: ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "Express"],
-            image: "/projects/purpleÜ.jpg",
-            link: "https://pupleu.onrender.com",
-            badge: "Ongoing"
-        },
-        {
-            id: 5,
-            title: "XMFFI",
-            description: "Booking system for land and sea transportation logistics with real-time tracking.",
-            technologies: ["React", "Laravel", "Tailwind", "MySQL"],
-            image: "/projects/xmffi.png",
-            link: "https://xmffi-fms.vercel.app/",
-            badge: "Free Tier Server Expired"
-        },
-        {
-            id: 6,
-            title: "Rantify",
-            description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
-            technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
-            image: "/projects/rantify.png",
-            link: "https://rantify-client.onrender.com/",
-            badge: "Live"
-        },
-        {
-            id: 7,
-            title: "XtraMile Mobile",
-            description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
-            technologies: ["React Native", "Laravel", "Tailwind"],
-            image: "/projects/xtramile-mobile.png",
-            link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view",
-            badge: "Mobile App"
-        },
-        {
-            id: 8,
-            title: "WordPress Portfolio",
-            description: "Professional portfolio website with custom themes and responsive design.",
-            technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
-            image: "/projects/wordpress-portfolio.png",
-            link: "https://live-mangorangca-portfolio.pantheonsite.io/",
-            badge: "Live"
-        },
-        {
-            id: 9,
-            title: "BudgetNatin",
-            description: "Budget tracking app with expense categorization and reporting.",
-            technologies: ["React", "Node.js", "Express", "Tailwind"],
-            image: "/projects/budgetnatin.png",
-            link: "https://budgetnatinweb.onrender.com",
-            badge: "Free Tier Server Expired"
-        },
-        {
-            id: 10,
-            title: "NorAnime",
-            description: "Anime discovery platform to search trending anime and view details.",
-            technologies: ["React", "Rest API", "Tailwind"],
-            image: "/projects/noranime.png",
-            link: "https://noranime-nu.vercel.app/",
-            badge: "Frontend Only"
-        },
-        {
-            id: 11,
-            title: "Catchy",
-            description: "React Native mobile app with clean UI and smooth animations.",
-            technologies: ["React Native"],
-            image: "/projects/catchy.png",
-            link: "https://apkpure.com/p/com.norway012.norway",
-            badge: "Mobile App"
-        }
-    ];
-
+                 const projects = [
+    {
+        id: 1,
+        title: "4RENT",
+        description: "Boarding house and apartment finder platform where landlords can list properties and tenants can find their next home.",
+        technologies: ["React", "PostgreSQL", "Node.js", "Express.js"],
+        image: "/projects/4rent.png",
+        link: "https://fourrent-932r.onrender.com/",
+        badge: "Ongoing"
+    },
+    {
+        id: 2,
+        title: "SukiPRO",
+        description: "POS and inventory system for retail stores with barcode scanning, sales tracking, and multi-shop support.",
+        technologies: ["React", "Tailwind CSS", "Supabase"],
+        image: "/projects/sukipro.png",
+        link: "https://sukipro.onrender.com",
+        badge: "Free Tier Server Expired"
+    },
+    {
+        id: 3,
+        title: "OCCeLibrary",
+        description: "Library management system with eBook management, physical book tracking, and administrative controls.",
+        technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
+        image: "/projects/occelibrary.png",
+        link: "https://occelibrary.onrender.com",
+        badge: "Ongoing"
+    },
+    {
+        id: 4,
+        title: "DoTrack",
+        description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
+        technologies: ["React", "Vite", "MySQL", "Node.js", "Express"],
+        image: "/projects/dotrack.png",
+        link: "https://dotrack.onrender.com",
+        badge: "Ongoing"
+    },
+    {
+        id: 5,
+        title: "XMFFI",
+        description: "Booking system for land and sea transportation logistics with real-time tracking.",
+        technologies: ["React", "Laravel", "Tailwind", "MySQL"],
+        image: "/projects/xmffi.png",
+        link: "https://xmffi-fms.vercel.app/",
+        badge: "Free Tier Server Expired"
+    },
+    {
+        id: 6,
+        title: "Rantify",
+        description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
+        technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+        image: "/projects/rantify.png",
+        link: "https://rantify-client.onrender.com/",
+        badge: "Live"
+    },
+    {
+        id: 7,
+        title: "XtraMile Mobile",
+        description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
+        technologies: ["React Native", "Laravel", "Tailwind"],
+        image: "/projects/xtramile-mobile.png",
+        link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view",
+        badge: "Mobile App"
+    },
+    {
+        id: 8,
+        title: "WordPress Portfolio",
+        description: "Professional portfolio website with custom themes and responsive design.",
+        technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
+        image: "/projects/wordpress-portfolio.png",
+        link: "https://live-mangorangca-portfolio.pantheonsite.io/",
+        badge: "Live"
+    },
+    {
+        id: 9,
+        title: "purpleÜ",
+        description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
+        technologies: ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "Express"],
+        image: "/projects/purpleÜ.jpg",
+        link: "https://pupleu.onrender.com",
+        badge: "Frontend Only"
+    },
+    {
+        id: 10,
+        title: "BudgetNatin",
+        description: "Budget tracking app with expense categorization and reporting.",
+        technologies: ["React", "Node.js", "Express", "Tailwind"],
+        image: "/projects/budgetnatin.png",
+        link: "https://budgetnatinweb.onrender.com",
+        badge: "Free Tier Server Expired"
+    },
+    {
+        id: 11,
+        title: "NorAnime",
+        description: "Anime discovery platform to search trending anime and view details.",
+        technologies: ["React", "Rest API", "Tailwind"],
+        image: "/projects/noranime.png",
+        link: "https://noranime-nu.vercel.app/",
+        badge: "Frontend Only"
+    },
+    {
+        id: 12,
+        title: "Catchy",
+        description: "React Native mobile app with clean UI and smooth animations.",
+        technologies: ["React Native"],
+        image: "/projects/catchy.png",
+        link: "https://apkpure.com/p/com.norway012.norway",
+        badge: "Mobile App"
+    }
+];
     if (isLoading) {
         return (
             <div
