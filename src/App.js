@@ -60,7 +60,7 @@ const Portfolio = () => {
         id: 2,
         title: "SukiPRO",
         description: "POS and inventory system for retail stores with barcode scanning, sales tracking, and multi-shop support.",
-        technologies: ["React", "Tailwind CSS", "Supabase"],
+        technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
         image: "/projects/sukipro.png",
         link: "https://sukipro.onrender.com",
         badge: "Free Tier Server Expired"
@@ -69,7 +69,7 @@ const Portfolio = () => {
         id: 3,
         title: "OCCeLibrary",
         description: "Library management system with eBook management, physical book tracking, and administrative controls.",
-        technologies: ["React", "Tailwind CSS", "Recharts", "Axios"],
+        technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
         image: "/projects/occelibrary.png",
         link: "https://occelibrary.onrender.com",
         badge: "Ongoing"
@@ -78,10 +78,10 @@ const Portfolio = () => {
         id: 4,
         title: "DoTrack",
         description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
-        technologies: ["React", "Vite", "MySQL", "Node.js", "Express"],
+        technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
         image: "/projects/dotrack.png",
         link: "https://dotrack.onrender.com",
-        badge: "Ongoing"
+        badge: "Live"
     },
     {
         id: 5,
@@ -96,7 +96,7 @@ const Portfolio = () => {
         id: 6,
         title: "Rantify",
         description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
-        technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+        technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
         image: "/projects/rantify.png",
         link: "https://rantify-client.onrender.com/",
         badge: "Live"
@@ -105,7 +105,7 @@ const Portfolio = () => {
         id: 7,
         title: "XtraMile Mobile",
         description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
-        technologies: ["React Native", "Laravel", "Tailwind"],
+        technologies: ["React Native", "Laravel", "Tailwind CSS"],
         image: "/projects/xtramile-mobile.png",
         link: "https://drive.google.com/file/d/1Fl8QW8k0mOUpT1B4n6_5IlPbdIkrzWTn/view",
         badge: "Mobile App"
@@ -123,7 +123,7 @@ const Portfolio = () => {
         id: 9,
         title: "purpleÜ",
         description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
-        technologies: ["React", "Tailwind CSS", "PostgreSQL", "Node.js", "Express"],
+        technologies: ["React", "Tailwind CSS"],
         image: "/projects/purpleÜ.jpg",
         link: "https://pupleu.onrender.com",
         badge: "Frontend Only"
@@ -150,7 +150,7 @@ const Portfolio = () => {
         id: 12,
         title: "Catchy",
         description: "React Native mobile app with clean UI and smooth animations.",
-        technologies: ["React Native"],
+        technologies: ["React Native", "CSS"],
         image: "/projects/catchy.png",
         link: "https://apkpure.com/p/com.norway012.norway",
         badge: "Mobile App"
