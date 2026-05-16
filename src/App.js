@@ -24,7 +24,7 @@ const Portfolio = () => {
     };
 
     const toggleImage = () => {
-        setCurrentImage(currentImage === "me.png" ? "me2.png" : "me.png");
+        setCurrentImage(currentImage === "me3.png" ? "me2.png" : "me3.png");
     };
 
     const scrollToSection = sectionId => {
