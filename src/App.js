@@ -98,7 +98,7 @@ const Portfolio = () => {
         description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
         technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
         image: "/projects/rantify.png",
-        link: "https://rantify-client.onrender.com/",
+        link: "https://rantify-49ma.onrender.com/",
         badge: "Live"
     },
     {
