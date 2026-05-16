@@ -5,7 +5,7 @@ const Portfolio = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
-    const [currentImage, setCurrentImage] = useState("me.png");
+    const [currentImage, setCurrentImage] = useState("me3.png");
 
     useEffect(() => {
         const timer = setTimeout(() => {
