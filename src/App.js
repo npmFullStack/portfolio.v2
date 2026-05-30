@@ -59,8 +59,7 @@ const Portfolio = () => {
                      {
         id: 2,
         title: "LutongBahay",
-        description: "Boarding house and apartment finder platform where landlords can list properties and tenants can find their next home.",
-        technologies: ["React", "PostgreSQL", "Node.js", "Express.js"],
+        description: "Filipino recipe discovery platform where home cooks can share authentic family recipes, discover traditional dishes, and bring the warmth of home cooking to every table.",        technologies: ["React", "PostgreSQL", "Node.js", "Express.js"],
         image: "/projects/lutong-bahay.png",
         link: "https://lutongbahay-5vkk.onrender.com/",
         badge: "Ongoing"
