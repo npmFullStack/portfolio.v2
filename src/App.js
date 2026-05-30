@@ -5,7 +5,7 @@ const Portfolio = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
-    const [currentImage, setCurrentImage] = useState("me3.png");
+    const [currentImage, setCurrentImage] = useState("me.png");
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -24,7 +24,7 @@ const Portfolio = () => {
     };
 
     const toggleImage = () => {
-        setCurrentImage(currentImage === "me3.png" ? "me2.png" : "me3.png");
+        setCurrentImage(currentImage === "me.png" ? "me2.png" : "me.png");
     };
 
     const scrollToSection = sectionId => {
@@ -56,8 +56,17 @@ const Portfolio = () => {
         link: "https://fourrent-932r.onrender.com/",
         badge: "Ongoing"
     },
-    {
+                     {
         id: 2,
+        title: "LutongBahay",
+        description: "Boarding house and apartment finder platform where landlords can list properties and tenants can find their next home.",
+        technologies: ["React", "PostgreSQL", "Node.js", "Express.js"],
+        image: "/projects/lutong-bahay.png",
+        link: "https://lutongbahay-5vkk.onrender.com/",
+        badge: "Ongoing"
+    },
+    {
+        id: 3,
         title: "SukiPRO",
         description: "POS and inventory system for retail stores with barcode scanning, sales tracking, and multi-shop support.",
         technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
@@ -66,7 +75,7 @@ const Portfolio = () => {
         badge: "Free Tier Server Expired"
     },
     {
-        id: 3,
+        id: 4,
         title: "OCCeLibrary",
         description: "Library management system with eBook management, physical book tracking, and administrative controls.",
         technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
@@ -75,7 +84,7 @@ const Portfolio = () => {
         badge: "Ongoing"
     },
     {
-        id: 4,
+        id: 5,
         title: "DoTrack",
         description: "Daily task tracker with 30-day cycles, task completion tracking, and progress monitoring.",
         technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL"],
@@ -84,7 +93,7 @@ const Portfolio = () => {
         badge: "Live"
     },
     {
-        id: 5,
+        id: 6,
         title: "XMFFI",
         description: "Booking system for land and sea transportation logistics with real-time tracking.",
         technologies: ["React", "Laravel", "Tailwind", "MySQL"],
@@ -93,7 +102,7 @@ const Portfolio = () => {
         badge: "Free Tier Server Expired"
     },
     {
-        id: 6,
+        id: 7,
         title: "Rantify",
         description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
         technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
@@ -102,7 +111,7 @@ const Portfolio = () => {
         badge: "Live"
     },
     {
-        id: 7,
+        id: 8,
         title: "XtraMile Mobile",
         description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
         technologies: ["React Native", "Laravel", "Tailwind CSS"],
@@ -111,7 +120,7 @@ const Portfolio = () => {
         badge: "Mobile App"
     },
     {
-        id: 8,
+        id: 9,
         title: "WordPress Portfolio",
         description: "Professional portfolio website with custom themes and responsive design.",
         technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
@@ -120,7 +129,7 @@ const Portfolio = () => {
         badge: "Live"
     },
     {
-        id: 9,
+        id: 10,
         title: "purpleÜ",
         description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
         technologies: ["React", "Tailwind CSS"],
@@ -129,7 +138,7 @@ const Portfolio = () => {
         badge: "Frontend Only"
     },
     {
-        id: 10,
+        id: 11,
         title: "BudgetNatin",
         description: "Budget tracking app with expense categorization and reporting.",
         technologies: ["React", "Node.js", "Express", "Tailwind"],
@@ -138,7 +147,7 @@ const Portfolio = () => {
         badge: "Free Tier Server Expired"
     },
     {
-        id: 11,
+        id: 12,
         title: "NorAnime",
         description: "Anime discovery platform to search trending anime and view details.",
         technologies: ["React", "Rest API", "Tailwind"],
@@ -147,7 +156,7 @@ const Portfolio = () => {
         badge: "Frontend Only"
     },
     {
-        id: 12,
+        id: 13,
         title: "Catchy",
         description: "React Native mobile app with clean UI and smooth animations.",
         technologies: ["React Native", "CSS"],
