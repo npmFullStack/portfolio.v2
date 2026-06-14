@@ -100,17 +100,9 @@ const Portfolio = () => {
         link: "https://xmffi-fms.vercel.app/",
         badge: "Free Tier Server Expired"
     },
+    
     {
         id: 7,
-        title: "Rantify",
-        description: "Anonymous letter-sharing platform for confessions, thoughts, and stories.",
-        technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-        image: "/projects/rantify.png",
-        link: "https://rantify-49ma.onrender.com/",
-        badge: "Live"
-    },
-    {
-        id: 8,
         title: "XtraMile Mobile",
         description: "Mobile app for booking and tracking land and sea freight services with push notifications.",
         technologies: ["React Native", "Laravel", "Tailwind CSS"],
@@ -119,7 +111,7 @@ const Portfolio = () => {
         badge: "Mobile App"
     },
     {
-        id: 9,
+        id: 8,
         title: "WordPress Portfolio",
         description: "Professional portfolio website with custom themes and responsive design.",
         technologies: ["WordPress", "PHP", "JavaScript", "CSS"],
@@ -128,7 +120,7 @@ const Portfolio = () => {
         badge: "Live"
     },
     {
-        id: 10,
+        id: 9,
         title: "purpleÜ",
         description: "Build your stunning portfolio in minutes. Get a shareable link. Customize everything.",
         technologies: ["React", "Tailwind CSS"],
@@ -137,7 +129,7 @@ const Portfolio = () => {
         badge: "Frontend Only"
     },
     {
-        id: 11,
+        id: 10,
         title: "BudgetNatin",
         description: "Budget tracking app with expense categorization and reporting.",
         technologies: ["React", "Node.js", "Express", "Tailwind"],
@@ -146,7 +138,7 @@ const Portfolio = () => {
         badge: "Free Tier Server Expired"
     },
     {
-        id: 12,
+        id: 11,
         title: "NorAnime",
         description: "Anime discovery platform to search trending anime and view details.",
         technologies: ["React", "Rest API", "Tailwind"],
@@ -155,7 +147,7 @@ const Portfolio = () => {
         badge: "Frontend Only"
     },
     {
-        id: 13,
+        id: 12,
         title: "Catchy",
         description: "React Native mobile app with clean UI and smooth animations.",
         technologies: ["React Native", "CSS"],
